@@ -44,6 +44,6 @@ public class CloakCoinTest extends AbstractAssetTest {
 	assertInvalidAddress("smYmLYcVVzExmaFyVp3AUjU3fJMK5E93kwzDfMnPLnEBQ7BoHZkSQhCP92hZz7Hm24yavCceNeQm8RHekqdv");
 	assertInvalidAddress("C3MwbThsvquwA4Yg6recThXpAhR2hvRKw");
 	assertInvalidAddress(" B6MwbThsvquwA4Yg6recThXpAhR2hvKRsz");
-	assertInavlidAddress("B6MwbThsvquwA4Yg6recThXpAhR2hvKRsz ");
+	assertInvalidAddress("B6MwbThsvquwA4Yg6recThXpAhR2hvKRsz ");
     }
 }
