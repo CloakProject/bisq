@@ -31,7 +31,7 @@ public class CloakCoinTest extends AbstractAssetTest {
     public void testValidAddresses() {
         assertValidAddress("C3MwbThsvquwA4Yg6recThXpAhR2hvRKws");
         assertValidAddress("B6MwbThsvquwA4Yg6recThXpAhR2hvKRsz");
-        assertValidAddress("BCA31xPpijxiCuTQeYMpMTQsTH1m2jTgtS");
+        assertValidAddress("BCA31xPpijxiCuTQeYMpMTQsTH1m2jTg5t");
 	assertValidAddress("smYmLVV33zExmaFyVp3AUjU3fJMK5E93kwzDfMnPLnEBQ7BoHZkSQhCP92hZz7Hm24yavCceNeQm8RHekqdvrhFe8gX7EdXNwnhQgQ");
 
     }

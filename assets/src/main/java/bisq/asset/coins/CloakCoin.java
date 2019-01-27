@@ -35,7 +35,7 @@ public class CloakCoin extends Coin {
 
         @Override
         public AddressValidationResult validate(String address) {
-            if (!address.matches("^[B|C][a-km-zA-HJ-NP-Z1-9]{33}$") || !address.matches("^[smY][a-km-zA-HJ-NP-Z1-9]{99}$"))
+            if (!address.matches("^[B|C][a-km-zA-HJ-NP-Z1-9]{33}$") && !address.matches("^smY[a-km-zA-HJ-NP-Z1-9]{99}$"))
                 return AddressValidationResult.invalidStructure();
 
 	    return AddressValidationResult.validAddress();
